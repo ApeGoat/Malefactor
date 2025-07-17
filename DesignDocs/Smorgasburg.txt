@@ -1,0 +1,7 @@
+Side view
+Multi-level arena
+Weapons (melee vs ranged?)
+Enemies
+Enemy spawn location alerts
+Waves
+Roguelike elements for replayability
