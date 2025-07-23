@@ -1,9 +1,0 @@
-Side view
-Multi-level arena
-Weapons (melee vs ranged?)
-Enemies
-Enemy spawn location alerts
-Waves
-Roguelike elements for replayability
-2 hit KO player (recharging shield)
-satisfying kills
