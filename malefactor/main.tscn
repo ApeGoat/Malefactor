@@ -587,6 +587,9 @@ metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 position = Vector2(416, 382)
 scale = Vector2(0.4, 0.4)
 shape = SubResource("RectangleShape2D_h2yge")
@@ -599,6 +602,24 @@ position = Vector2(-1, 2)
 shape = SubResource("RectangleShape2D_h2yge")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+=======
+position = Vector2(-1, 2)
+shape = SubResource("RectangleShape2D_h2yge")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+>>>>>>> Stashed changes
+=======
+position = Vector2(-1, 2)
+shape = SubResource("RectangleShape2D_h2yge")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+>>>>>>> Stashed changes
+=======
+position = Vector2(-1, 2)
+shape = SubResource("RectangleShape2D_h2yge")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+>>>>>>> Stashed changes
 texture = ExtResource("1_ig7tw")
 
 [node name="Canon" type="Node2D" parent="."]
@@ -608,5 +629,14 @@ metadata/_edit_group_ = true
 
 [node name="Canon" type="Sprite2D" parent="Canon"]
 position = Vector2(1, -1)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 texture = ExtResource("1_ig7tw")
