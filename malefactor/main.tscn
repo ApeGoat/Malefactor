@@ -1,5 +1,7 @@
 [gd_scene load_steps=10 format=4 uid="uid://64jcp867gwj8"]
 
+
+
 [ext_resource type="Texture2D" uid="uid://cf1ys5xcw32x7" path="res://icon.svg" id="1_ig7tw"]
 [ext_resource type="Texture2D" uid="uid://ctav1w77b8g4d" path="res://tilesheet_complete.png" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://bjfrgj7l7ojq5" path="res://character_body_2d.gd" id="2_h2yge"]
@@ -592,6 +594,14 @@ shape = SubResource("RectangleShape2D_h2yge")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
 scale = Vector2(0.4, 0.4)
+position = Vector2(-1, 2)
+shape = SubResource("RectangleShape2D_h2yge")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(-1, 2)
+shape = SubResource("RectangleShape2D_h2yge")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
 position = Vector2(-1, 2)
 shape = SubResource("RectangleShape2D_h2yge")
 
