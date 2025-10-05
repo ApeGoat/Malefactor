@@ -2,9 +2,12 @@
 
 [ext_resource type="Script" path="res://projectile.gd" id="1_dgwo2"]
 [ext_resource type="Texture2D" uid="uid://c74h2wxoe8v7" path="res://largeredcircle.svg" id="2_sxmqc"]
-[ext_resource type="Script" path="res://collision_shape_2d.gd" id="3_2xblw"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_dgwo2"]
+
+[sub_resource type="GDScript" id="GDScript_qxf0c"]
+script/source = "extends CollisionShape2D
+"
 
 [node name="Projectile" type="CharacterBody2D"]
 position = Vector2(155, 339)
@@ -18,4 +21,4 @@ texture = ExtResource("2_sxmqc")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 scale = Vector2(1.75, 1.75)
 shape = SubResource("CircleShape2D_dgwo2")
-script = ExtResource("3_2xblw")
+script = SubResource("GDScript_qxf0c")

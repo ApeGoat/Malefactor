@@ -1,9 +1,11 @@
-[gd_scene load_steps=10 format=4 uid="uid://64jcp867gwj8"]
+[gd_scene load_steps=14 format=4 uid="uid://64jcp867gwj8"]
 
 [ext_resource type="Texture2D" uid="uid://cf1ys5xcw32x7" path="res://icon.svg" id="1_ig7tw"]
 [ext_resource type="Texture2D" uid="uid://ctav1w77b8g4d" path="res://tilesheet_complete.png" id="2_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://w42urklfrkwm" path="res://new_image_texture.tres" id="2_7mycd"]
 [ext_resource type="Script" uid="uid://bjfrgj7l7ojq5" path="res://character_body_2d.gd" id="2_h2yge"]
-[ext_resource type="Script" path="res://canon.gd" id="7_272bh"]
+[ext_resource type="Texture2D" uid="uid://xhtb4vv2r4sn" path="res://cannon.png" id="6_272bh"]
+[ext_resource type="Script" uid="uid://b8rcytfv0buv4" path="res://canon.gd" id="7_272bh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0xm2m"]
 texture = ExtResource("2_0xm2m")
@@ -283,11 +285,21 @@ texture_region_size = Vector2i(64, 64)
 21:11/0 = 0
 6:11/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5vw27"]
+texture = ExtResource("2_7mycd")
+texture_region_size = Vector2i(64, 64)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7mycd"]
+texture = ExtResource("6_272bh")
+texture_region_size = Vector2i(64, 64)
+
 [sub_resource type="TileSet" id="TileSet_h2yge"]
 tile_size = Vector2i(64, 64)
 uv_clipping = true
 physics_layer_0/collision_layer = 1
 sources/2 = SubResource("TileSetAtlasSource_0xm2m")
+sources/3 = SubResource("TileSetAtlasSource_5vw27")
+sources/4 = SubResource("TileSetAtlasSource_7mycd")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1bvp3"]
 texture = ExtResource("2_0xm2m")
@@ -595,11 +607,12 @@ position = Vector2(-1, 1)
 scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_ig7tw")
 
-[node name="Canon" type="Node2D" parent="."]
-position = Vector2(657, 501)
+[node name="Cannon" type="Node2D" parent="."]
+position = Vector2(993, 251)
+rotation = -1.57219
 script = ExtResource("7_272bh")
 metadata/_edit_group_ = true
 
-[node name="Canon" type="Sprite2D" parent="Canon"]
+[node name="Cannon" type="Sprite2D" parent="Cannon"]
 position = Vector2(1, -1)
-texture = ExtResource("1_ig7tw")
+texture = ExtResource("6_272bh")

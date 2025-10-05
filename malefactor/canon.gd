@@ -4,7 +4,9 @@ extends Node2D
 @onready var projectile = load("res://projectile.tscn")
 
 func _ready():
-	shoot()
+	while(true):
+		shoot()
+		await get_tree().create_timer(2.0).timeout
 
 
 func shoot():
