@@ -1,11 +1,9 @@
 [gd_scene load_steps=10 format=4 uid="uid://64jcp867gwj8"]
 
-
-
 [ext_resource type="Texture2D" uid="uid://cf1ys5xcw32x7" path="res://icon.svg" id="1_ig7tw"]
 [ext_resource type="Texture2D" uid="uid://ctav1w77b8g4d" path="res://tilesheet_complete.png" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://bjfrgj7l7ojq5" path="res://character_body_2d.gd" id="2_h2yge"]
-[ext_resource type="Script" uid="uid://b8rcytfv0buv4" path="res://canon.gd" id="7_272bh"]
+[ext_resource type="Script" path="res://canon.gd" id="7_272bh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0xm2m"]
 texture = ExtResource("2_0xm2m")
@@ -583,33 +581,18 @@ tile_set = SubResource("TileSet_lquwl")
 collision_visibility_mode = 1
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-position = Vector2(567, 407)
+position = Vector2(462, 487)
 script = ExtResource("2_h2yge")
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-position = Vector2(416, 382)
+position = Vector2(-0.999969, 3.05176e-05)
 scale = Vector2(0.4, 0.4)
 shape = SubResource("RectangleShape2D_h2yge")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(-1, 1)
 scale = Vector2(0.4, 0.4)
-position = Vector2(-1, 2)
-shape = SubResource("RectangleShape2D_h2yge")
-
-[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
-position = Vector2(-1, 2)
-shape = SubResource("RectangleShape2D_h2yge")
-
-[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
-position = Vector2(-1, 2)
-shape = SubResource("RectangleShape2D_h2yge")
-
-[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
-position = Vector2(-1, 2)
-shape = SubResource("RectangleShape2D_h2yge")
-
-[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
 texture = ExtResource("1_ig7tw")
 
 [node name="Canon" type="Node2D" parent="."]

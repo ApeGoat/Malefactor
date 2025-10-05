@@ -1,8 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://rtggrusi3gkq"]
+[gd_scene load_steps=5 format=3 uid="uid://b77gup6i8jwm2"]
 
-[ext_resource type="Script" uid="uid://cxmo3ot1b4165" path="res://projectile.gd" id="1_dgwo2"]
+[ext_resource type="Script" path="res://projectile.gd" id="1_dgwo2"]
 [ext_resource type="Texture2D" uid="uid://c74h2wxoe8v7" path="res://largeredcircle.svg" id="2_sxmqc"]
-[ext_resource type="Script" uid="uid://cnuhmc7xdel81" path="res://collision_shape_2d.gd" id="3_2xblw"]
+[ext_resource type="Script" path="res://collision_shape_2d.gd" id="3_2xblw"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_dgwo2"]
 
